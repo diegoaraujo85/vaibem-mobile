@@ -1,12 +1,28 @@
 {
-  "name": "appmobile",
-  "displayName": "appmobile",
   "expo": {
-    "name": "appmobile",
-    "slug": "appmobile",
-    "version": "1.0.0",
+    "name": "App",
+    "description": "Aplicativo mobile",
+    "slug": "vaibem-mobile",
+    "notification": {},
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#7b18c1"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.vaibem.mobile",
+      "buildNumber": "0.0.1"
+    },
+    "android": {
+      "enableDangerousExperimentalLeanBuilds": true,
+      "package": "com.vaibem.mobile",
+      "useNextNotificationsApi": true,
+      "versionCode": 390000001
+    },
+    "version": "0.0.1"
   }
 }

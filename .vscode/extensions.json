@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "naumovs.color-highlight",
+    "jpoissonnier.vscode-styled-components",
+    "dbaeumer.vscode-eslint"
+  ]
+}
