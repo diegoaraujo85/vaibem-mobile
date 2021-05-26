@@ -45,7 +45,6 @@ const Establishment: React.FC = () => {
   const filterEstablishments = useCallback(
     text => {
       setFilterText(text);
-      console.log(text.toEstablishmenteUpperCase())
 
       const filteredEstablishments = establishments.filter(establishment => {
         if (
@@ -56,7 +55,6 @@ const Establishment: React.FC = () => {
           return establishment;
         }
       });
-      console.log(filteredEstablishments)
       setEstablishmentsList(filteredEstablishments);
     },
     [establishments],
