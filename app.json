@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "App",
+    "name": "Vai Bem",
     "description": "Aplicativo mobile",
     "slug": "vaibem-mobile",
     "notification": {},
@@ -15,14 +15,12 @@
     ],
     "ios": {
       "bundleIdentifier": "com.vaibem.mobile",
-      "buildNumber": "0.0.1"
+      "buildNumber": "0.0.2"
     },
     "android": {
-      "enableDangerousExperimentalLeanBuilds": true,
       "package": "com.vaibem.mobile",
-      "useNextNotificationsApi": true,
-      "versionCode": 390000001
+      "versionCode": 410000002
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
   }
 }

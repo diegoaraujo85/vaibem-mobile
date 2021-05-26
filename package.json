@@ -1,12 +1,13 @@
 {
   "main": "index.js",
+  "version": "0.0.2",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
     "sv": "npx standard-version",
-    "android:apk": "expo build:android -t apk  --release-channel default",
+    "apk": "npx expo-optimize && expo build:android -t apk  --release-channel default",
     "pub": "expo publish --target bare --release-channel default"
   },
   "dependencies": {
