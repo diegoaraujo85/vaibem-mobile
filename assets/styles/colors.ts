@@ -11,6 +11,7 @@ export default {
 
   // Header
   header_background: '#28262e',
+
   // Input
   input_text_color: '#f4ede8',
   input_placeholder_text_color: '#666360',
